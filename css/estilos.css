@@ -3,6 +3,7 @@
     font-family: 'Cumiskat' ;
     src: url(/fuentes/Cumiskat.ttf);
 }
+
 h1, h2, h3{
     margin: 0;
     padding: 0;
@@ -23,9 +24,8 @@ body{ /* Así se crea una regla de estilo para el objeto body */
     background-color: var(--color-blanco); /* Color de fondo */
     color: var(--color-gris-oscuro); /* Color de texto */
     font-size: 20px;
+    margin: 0;
 }
-
-
 
 body>div:not(:first-child){
     margin: auto;
@@ -42,16 +42,22 @@ body>div>div{
     text-align: justify;
 }
 
-
-
 #encabezado{
     background-color: var(--color1);
     margin: 0;
 }
 
+#portada{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://images.pexels.com/photos/3184419/pexels-photo-3184419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position:center 35%;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
+
 h1{
-    font-size: 35px; /* Tamaño de la letra en pixeles */
-    font-weight: 900; /* Estilo o grosor de la letra */
+    font-size: 26px; /* Tamaño de la letra en pixeles */
     font-family: 'Cumiskat';
     text-align: center;
 }
